@@ -63,9 +63,6 @@ class Docs extends Component{
     }
 
     render(){
-
-
-        {/*Prepare data for table*/}
         const data = [{
             name: 'Andrew Mike',
             job_position:'Develop',
@@ -103,7 +100,6 @@ class Docs extends Component{
             salary:'€ 99,225'
         }];
 
-        {/*Table columns*/}
         const columns = [{
             Header: 'Name',
             accessor: 'name' // String-based value accessors!
@@ -131,9 +127,7 @@ class Docs extends Component{
         const showGridStyle = {
             paddingTop: '10px',
             paddingBottom: '10px',
-            backgroundColor: '#eee',
             backgroundColor: 'rgba(86,61,124,.15)',
-            border: '1px solid #ddd',
             border: '1px solid rgba(86,61,124,.2)'
         };
 
